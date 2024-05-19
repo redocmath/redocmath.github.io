@@ -1,0 +1,24 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: Self-Introduction
+    entries:
+      - title: I'm Sungjin Yang, a.k.a. RedoC. A Freshman in Korea Science Academy
+      - title: "Github: @redocmath"
+        url: https://github.com/redocmath
+
+  - title: All Posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: Posts By Category
+    post_list:
+      title: Problem Solving
+      category: problem-solving
+
+  - title: Stay Tuned by RSS!
+    url: feed.xml
