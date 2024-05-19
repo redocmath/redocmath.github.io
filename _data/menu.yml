@@ -4,7 +4,8 @@
 entries:
   - title: Self-Introduction
     entries:
-      - title: I'm Sungjin Yang, a.k.a. RedoC. A Freshman in Korea Science Academy
+      - title: I'm Sungjin Yang, a.k.a. RedoC. 
+      - title: 'A Freshman in <a href="https://en.wikipedia.org/wiki/Korea_Science_Academy_of_KAIST">Korea Science Academy'
       - title: "Github: @redocmath"
         url: https://github.com/redocmath
 

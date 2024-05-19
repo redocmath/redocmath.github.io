@@ -27,6 +27,7 @@ a {
     all:inherit;
     display: inline-block;
     position: relative;
+    margin: unset
 }
 
 a::after {
