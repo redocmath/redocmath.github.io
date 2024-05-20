@@ -2,12 +2,7 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: Self-Introduction
-    entries:
-      - title: I'm Sungjin Yang, a.k.a. RedoC. 
-      - title: 'A Freshman in <a href="https://en.wikipedia.org/wiki/Korea_Science_Academy_of_KAIST">Korea Science Academy'
-      - title: "Github: @redocmath"
-        url: https://github.com/redocmath
+  - title: "<h2>Self-Introduction</h2><p>I'm Sungjin Yang, a.k.a. RedoC.</p><p>A Freshman in <a href=\"https://en.wikipedia.org/wiki/Korea_Science_Academy_of_KAIST\">Korea Science Academy</a></p><p><a href=\"https://github.com/redocmath\">Github: @redocmath</a></p>"
 
   - title: All Posts
     post_list:
