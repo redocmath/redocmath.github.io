@@ -11,14 +11,15 @@ entries:
 
   - title: All Posts
     post_list:
-      limit: 5
+      limit: 7
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
 
-  - title: Posts By Category
+  - title: Problem Solving
     post_list:
-      title: Problem Solving
+      limit: 7
+      show_more: false
       category: problem-solving
 
   - title: Stay Tuned by RSS!
