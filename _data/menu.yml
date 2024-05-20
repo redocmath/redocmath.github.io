@@ -22,5 +22,11 @@ entries:
       show_more: false
       category: problem-solving
 
+  - title: Math Article
+    post_list:
+      limit: 7
+      show_more: false
+      category: math-article
+
   - title: Stay Tuned by RSS!
     url: feed.xml
