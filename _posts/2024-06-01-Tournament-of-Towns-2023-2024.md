@@ -4,7 +4,9 @@ category: problem-solving
 ---
 
 ## Introduction
-Here are my approaches to *Tournament of Towns 2023/2024* (Fall 2023, Senior A-level.) I've heard a lot about *Tournament of Towns*, but this is my first try to solve problems in *Tournament of Towns*. I recorded time taken to solve each problem, to express how that problem was difficult for me.
+Here are my approaches to some problems in *Tournament of Towns 2023/2024* (Fall 2023, Senior A-level.) I've heard a lot about *Tournament of Towns*, but this is my first try to solve problems in *Tournament of Towns*. I recorded time taken to solve each problem, to express how that problem was difficult for me.
+
+<p style="color: red">These are not perfect solutions; they're my approaches (brief solutions), so there might be some logical loophole. Please let me know via comments :)</p>
 
 Check out the problems at [here](https://artofproblemsolving.com/community/c3683569_20232024_tournament_of_towns)!
 
@@ -71,6 +73,8 @@ because there must not be adjacent digits $$(d+1)$$. These two inequalities easi
 
 ## Problem 6
 
+> This was my favorite problem in this problem set!
+
 ## Problem 7
 
 ## Epilogue
@@ -80,6 +84,6 @@ Since I was young, I have been afraid of geometry problems. And it has leaded me
 
 ![Geometry Meme](https://images2.memedroid.com/images/UPLOADED27/51a6caa51e932.jpeg)
 
-Recently, however, I realized my terrible geometrical skills and started to try more geometry problems rather than avoiding them. I feel proud of myself because I solved Problems 4 and 5 at this time, and this is why problem-solving is more meaningful for me—**impressive and fun**.
+Recently, however, I realized my terrible geometrical skills and started to try more geometry problems rather than avoiding them. I feel proud of myself because I solved Problems 4 at this time, and this is why problem-solving is more meaningful for me—**impressive and fun**.
 
 
