@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <title>Daily Math: Tournament Of Towns 2023 2024</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Daily Math: Tournament Of Towns 2023 2024" />
+<meta name="author" content="RedoC (Sungjin Yang)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Introduction Here are my approaches to some problems in Tournament of Towns 2023/2024 (Fall 2023, Senior A-level.) I’ve heard a lot about Tournament of Towns, but this is my first try to solve problems in Tournament of Towns. I recorded time taken to solve each problem, to express how that problem was difficult for me." />
+<meta property="og:description" content="Introduction Here are my approaches to some problems in Tournament of Towns 2023/2024 (Fall 2023, Senior A-level.) I’ve heard a lot about Tournament of Towns, but this is my first try to solve problems in Tournament of Towns. I recorded time taken to solve each problem, to express how that problem was difficult for me." />
+<link rel="canonical" href="http://localhost:4000/daily-math-tournament-of-towns-2023-2024.html" />
+<meta property="og:url" content="http://localhost:4000/daily-math-tournament-of-towns-2023-2024.html" />
+<meta property="og:site_name" content="RedoC’s Blog 레도크 블로그" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-05-23T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Daily Math: Tournament Of Towns 2023 2024" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/daily-math-tournament-of-towns-2023-2024.html"},"author":{"@type":"Person","name":"RedoC (Sungjin Yang)"},"url":"http://localhost:4000/daily-math-tournament-of-towns-2023-2024.html","headline":"Daily Math: Tournament Of Towns 2023 2024","dateModified":"2024-05-23T00:00:00+09:00","datePublished":"2024-05-23T00:00:00+09:00","description":"Introduction Here are my approaches to some problems in Tournament of Towns 2023/2024 (Fall 2023, Senior A-level.) I’ve heard a lot about Tournament of Towns, but this is my first try to solve problems in Tournament of Towns. I recorded time taken to solve each problem, to express how that problem was difficult for me.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="RedoC's Blog 레도크 블로그" /><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/">..</a><article>
+  <p class="post-meta">
+    <time datetime="2024-05-23 00:00:00 +0900">2024-05-23</time>
+  </p>
+  
+  <h1>Daily Math: Tournament Of Towns 2023 2024</h1>
+
+  <h2 id="introduction">Introduction</h2>
+<p>Here are my approaches to some problems in <em>Tournament of Towns 2023/2024</em> (Fall 2023, Senior A-level.) I’ve heard a lot about <em>Tournament of Towns</em>, but this is my first try to solve problems in <em>Tournament of Towns</em>. I recorded time taken to solve each problem, to express how that problem was difficult for me.</p>
+
+<p style="color: red">These are not perfect solutions; they're my approaches (brief solutions), so there might be some logical loophole. Please let me know via comments :)</p>
+
+<p>Check out the problems at <a href="https://artofproblemsolving.com/community/c3683569_20232024_tournament_of_towns">here</a>!</p>
+
+<h2 id="problem-1-5">Problem 1 (≤5’)</h2>
+<p>After I read this problem, I was almost sure that the answer must be <em>equal</em>. In detail, I believed there must be a way to <em>pair</em> two roots completely. Fortunately, it was not so hard to find the way.</p>
+
+<p>Let 
+\[
+p_{(a_0, a_1, …, a_{45})}(x) = \sum_{0\leq i\leq45} a_i x^i
+\]
+and
+\[
+X_{(a_0, a_1, …, a_{45})} = \lbrace x~\vert~ p_{(a_0, a_1, …, a_45)}(x)=0 \rbrace
+\]
+where \(a_i \in \left\{1,2,...,46\right\}\). Then, we can easily show 
+\[
+\forall x\in X_{(a_0, a_1, …, a_{45})}\quad x&lt;0.
+\]
+Also, it is trivial that
+\[
+\left\lbrace\frac1x \vert x \in X_{(a_0, a_1, …, a_{45})}\right\rbrace = X_{(a_{45}, a_{44}, …, a_0)}.
+\]
+Because \(\left\lbrace x+1, \frac1x+1 \right\rbrace = \left\lbrace positive, negative \right\rbrace\) for \(x&lt;0\),</p>
+
+<p>\[
+\left\vert\left\lbrace x \vert x\in X_{A} \cup X_{A^{-1}} \wedge x+1&gt;0\right\rbrace\right\vert = 
+\left\vert\left\lbrace x \vert x\in X_{A} \cup X_{A^{-1}} \wedge x+1&lt;0\right\rbrace\right\vert
+\]</p>
+
+<p>where \(A=(a_0, a_1, ..., a_{45})\) and \(A^{-1}=(a_{45}, a_{44}, ..., a_0)\). Obviously for every \(A\) we can find \(A^{-1}\neq A\), the answer must be <em>equal</em>.</p>
+
+<h2 id="problem-2-20">Problem 2 (20’)</h2>
+<p>I tried to solve smaller problem first, so I generalized the numeral system and observed \(N\) from unary to ternary by hand. Let \(N(d)\) be \(N\) for \(d\)-base numeral system.</p>
+
+<p>\[
+{\lbrace N(d)\rbrace}_{d=1}^3 = \lbrace1,3,7\rbrace = \lbrace2^1-1, 2^2-1, 2^3-1\rbrace
+\]</p>
+
+<p>From observation, I guessed \(N(d)\) would be \(2^d-1\).</p>
+
+<p><em>Proof.</em> \(N(1)=2^1-1\) (base condition). Let’s assume \(N(d)=2^d-1\) and show \(N(d+1)=2^{d+1}-1\) to apply mathematical induction. We can easily show \(N(d+1)\geq 2N(d)+1=2^{d+1}-1\) with a constructive solution:</p>
+
+<p>\[
+X(d+1) = X(d)\circ(d+1)\circ X(d)
+\]</p>
+
+<p>where \(X(d)\) is one of the possible number whose length is \(N(d)\) and \(\circ\) is concatenation. Now let’s show \(N(d+1)\leq 2N(d)+1\). Obviously</p>
+
+<p>\[
+\left\vert\left\lbrace X(d+1)_i \in \lbrace1,2,…,d\rbrace \right\rbrace\right\vert \leq N(d)
+\]</p>
+
+<p>and</p>
+
+<p>\[
+\left\vert\left\lbrace X(d+1)_i = (d+1) \right\rbrace\right\vert \leq N(d)+1
+\]</p>
+
+<p>because there must not be adjacent digits \((d+1)\). These two inequalities easily prove \(N(d+1)\leq 2N(d)+1\). Finally, \(N(d+1)=2N(d)+1 \Rightarrow N(d)=2^{d}-1\).</p>
+
+
+  <div>
+        <script src="https://giscus.app/client.js"
+                data-repo="redocmath/redocmath.github.io"
+                data-repo-id="R_kgDOL9gKew"
+                data-category="Comments"
+                data-category-id="DIC_kwDOL9gKe84CfenI"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="bottom"
+                data-theme="preferred_color_scheme"
+                data-lang="en"
+                crossorigin="anonymous"
+                async>
+        </script>
+  </div>
+</article>
+
+      </div>
+    </main>
+  </body>
+</html>

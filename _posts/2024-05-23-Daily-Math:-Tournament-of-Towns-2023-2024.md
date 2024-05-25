@@ -66,24 +66,3 @@ and
 \\]
 
 because there must not be adjacent digits $$(d+1)$$. These two inequalities easily prove $$N(d+1)\leq 2N(d)+1$$. Finally, $$N(d+1)=2N(d)+1 \Rightarrow N(d)=2^{d}-1$$.
-
-## Problem 3 (15')
-
-## Problem 4
-
-## Problem 6
-
-> This was my favorite problem in this problem set!
-
-## Problem 7
-
-## Epilogue
-
-Since I was young, I have been afraid of geometry problems. And it has leaded me to avoid to solve geometry problems. 
-
-
-![Geometry Meme](https://images2.memedroid.com/images/UPLOADED27/51a6caa51e932.jpeg)
-
-Recently, however, I realized my terrible geometrical skills and started to try more geometry problems rather than avoiding them. I feel proud of myself because I solved Problems 4 at this time, and this is why problem-solving is more meaningful for me—**impressive and fun**.
-
-
