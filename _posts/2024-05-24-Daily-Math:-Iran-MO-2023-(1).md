@@ -4,7 +4,7 @@ category: problem-solving
 ---
 
 ## Introduction
-Here is my approach to problem 5 in *Iran MO 2023* (3rd Round.) **Always lots of fun!**
+Here is my approach to problem 2 in *Iran MO 2023* (3rd Round.) Thanks to *Yejun Shin* for recommending a great problem set. I recorded time taken to solve each problem, to express how that problem was difficult for me.
 
 <p style="color: red">This is not a perfect solutions; it is my approach (brief solution), so there might be some logical loophole. Please let me know via comments :)</p>
 
@@ -19,6 +19,7 @@ I was stucked on trying to prove this proposition for a while. After about ten m
 
 *Proof*. $$g(1)=1$$ (base condition). Assume that for $$1\leq k \leq n$$ $$g(k)=k$$. Then from $$ng(n)=(n-1)g(n-1)+f(n)$$, $$g(n)>\frac{(n-1)^2}{n}$$. Because $$g$$ is bijective, $$g(n)=n$$.
 
-Thus, the proposition is correct and the answer is **NO**.
+Thus, the anser is **NO**.
 
 ## Epilogue
+Today was so busy that I couldn't solve more than one problem. Because all problems in this problem set look very good, I think I'll continue to challenge this problem set.
