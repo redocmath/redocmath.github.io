@@ -1,0 +1,55 @@
+# Site
+name: "redocmath"
+description: 'Sungjin Yang'
+logo: ''
+favicon: ''
+baseurl: ''
+disqus: ''
+email: 'coderlovemedia@gmail.com'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    sungjin:
+      name:           Sungjin Yang
+      site:           https://redoc.wops.dev
+      avatar:         "https://github.com/redocmath.png"
+      bio:            "Structured Intuitionist"
+      email:          coderlovemedia at gmail dot com 
+      instagram:      https://www.instagram.com/redocmath/
+      linkedin:       https://www.linkedin.com/in/redocmath/
+
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      author: sal
+      avatar: /assets/images/avatar1.jpg
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
