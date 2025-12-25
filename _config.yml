@@ -3,8 +3,8 @@ name: "redocmath"
 description: 'Sungjin Yang'
 logo: ''
 favicon: ''
-baseurl: 'https://redoc.wops.dev/'
-disqus: ''
+url: 'https://redoc.wops.dev/'
+baseurl: ''
 email: 'coderlovemedia@gmail.com'
 
 include: ["_pages"]
@@ -35,8 +35,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: sungjin 
+      avatar: "https://github.com/redocmath.png" 
       
   # all pages
   - scope:
