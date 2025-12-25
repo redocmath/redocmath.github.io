@@ -3,7 +3,7 @@ name: "redocmath"
 description: 'Sungjin Yang'
 logo: ''
 favicon: ''
-baseurl: ''
+baseurl: 'https://redoc.wops.dev/'
 disqus: ''
 email: 'coderlovemedia@gmail.com'
 
