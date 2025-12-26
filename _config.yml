@@ -1,8 +1,8 @@
 # Site
 name: "redocmath"
 description: 'Sungjin Yang'
-logo: ''
-favicon: ''
+logo: 'https://github.com/redocmath.png'
+favicon: 'https://github.com/redocmath.png'
 url: 'https://redoc.wops.dev/'
 baseurl: ''
 email: 'coderlovemedia@gmail.com'
