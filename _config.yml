@@ -6,6 +6,7 @@ favicon: ''
 url: 'https://redoc.wops.dev/'
 baseurl: ''
 email: 'coderlovemedia@gmail.com'
+disqus: 'redocmath-blog'
 
 include: ["_pages"]
 permalink: /:title/

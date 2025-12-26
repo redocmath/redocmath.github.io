@@ -16,13 +16,13 @@
 <link rel="canonical" href="http://localhost:4000/about.html" />
 <meta property="og:url" content="http://localhost:4000/about.html" />
 <meta property="og:site_name" content="redocmath" />
-<meta property="og:image" content="http://localhost:4000/assets/images/screenshot.jpg" />
+<meta property="og:image" content="http://localhost:4000/assets/images/about/IMG_0072.jpg" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="http://localhost:4000/assets/images/screenshot.jpg" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/about/IMG_0072.jpg" />
 <meta property="twitter:title" content="About" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Sungjin Yang","headline":"About","image":"http://localhost:4000/assets/images/screenshot.jpg","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/"}},"url":"http://localhost:4000/about.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Sungjin Yang","headline":"About","image":"http://localhost:4000/assets/images/about/IMG_0072.jpg","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/"}},"url":"http://localhost:4000/about.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -102,7 +102,7 @@ var documents = [{
     "id": 1,
     "url": "http://localhost:4000/about.html",
     "title": "About",
-    "body": "Made with by Sal @wowthemesnet. "
+    "body": "안녕하세요, 양성진입니다. KAIST 부설 한국과학영재학교에서 수학하며 동시에 기초과학연구원에서 연구하고 있습니다. 세상에는 정말 많은 구조가 서로 치밀하게 엮여 있습니다. 그 덕분에, 전혀 다른 분야더라도 같은 구조를 가진 대상을 끌고 와 너무나 복잡해 보이는 문제를 손쉽게 해결하곤 합니다. 이것이 제가 수학을 하는 이유이자, 동시에 수학에만 매몰되지 않는 이유이기도 합니다. 세속적인 문제의 답이 수학에 있다면 수학을 하고, 수학적인 문제의 답이 세속에 있다면 아무 미련 없이 수학을 벗어납니다. 저는 저 자신을 Structured Intuitionist라고 소개합니다. 자칫 두루뭉술해지기 쉬운 직관을 구조화해 표현함으로써, 직관에 의존하는 제 성향이 엄밀성을 필요로 하는 수학을 하는 데 적절할 수 있도록 보완하고 있습니다. 제 생각을 더욱 적확한 구조에 담아낼 수 있도록 여러 대수적, 조합적, 기하학적 구조를 공부하고 있습니다. 수학 이외에도 축구와 음악을 좋아합니다. 축구부에서 주전 골키퍼를 맡고 있고, 밴드부에서 Synthesizer를 연주하고 있습니다. 잡념을 버리는 데 이만한 게 없더라고요. 저에 대해 더 궁금한 점이 있으시다면 coderlovemedia at gmail dot com으로 연락 주세요. 감사합니다. "
     }, {
     "id": 2,
     "url": "http://localhost:4000/categories.html",
@@ -117,7 +117,7 @@ var documents = [{
     "id": 4,
     "url": "http://localhost:4000/",
     "title": "Home",
-    "body": "  {% if page. url ==  /  %}            {% assign latest_post = site. posts[0] %}          &lt;div class= topfirstimage  style= background-image: url({% if latest_post. image contains  ://  %}{{ latest_post. image }}{% else %} {{site. baseurl}}/{{ latest_post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;           {{ latest_post. title }}  :       {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in latest_post. categories %}        {{ category }},         {% endfor %}                                {{ latest_post. date | date: '%b %d, %Y' }}                            {%- assign second_post = site. posts[1] -%}                        {% if second_post. image %}                         &lt;img class= w-100  src= {% if second_post. image contains  ://  %}{{ second_post. image }}{% else %}{{ second_post. image | absolute_url }}{% endif %}  alt= {{ second_post. title }} &gt;                        {% endif %}                                    {{ second_post. title }}          :                       In             {% for category in second_post. categories %}            {{ category }},             {% endfor %}                                                      {{ second_post. date | date: '%b %d, %Y' }}                                    {%- assign third_post = site. posts[2] -%}                        {% if third_post. image %}                         &lt;img class= w-100  src= {% if third_post. image contains  ://  %}{{ third_post. image }}{% else %}{{site. baseurl}}/{{ third_post. image }}{% endif %}  alt= {{ third_post. title }} &gt;                        {% endif %}                                    {{ third_post. title }}          :                       In             {% for category in third_post. categories %}            {{ category }},             {% endfor %}                                                      {{ third_post. date | date: '%b %d, %Y' }}                                    {%- assign fourth_post = site. posts[3] -%}                        {% if fourth_post. image %}                        &lt;img class= w-100  src= {% if fourth_post. image contains  ://  %}{{ fourth_post. image }}{% else %}{{site. baseurl}}/{{ fourth_post. image }}{% endif %}  alt= {{ fourth_post. title }} &gt;                        {% endif %}                                    {{ fourth_post. title }}          :                       In             {% for category in fourth_post. categories %}            {{ category }},             {% endfor %}                                                      {{ fourth_post. date | date: '%b %d, %Y' }}                                  {% for post in site. posts %} {% if post. tags contains  sticky  %}                    {{post. title}}                  {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}                 Read More            	             {% endif %}{% endfor %}  {% endif %}                All Stories:         {% for post in paginator. posts %}          {% include main-loop-card. html %}        {% endfor %}                   {% if paginator. total_pages &gt; 1 %}              {% if paginator. previous_page %}        &laquo; Prev       {% else %}        &laquo;       {% endif %}       {% for page in (1. . paginator. total_pages) %}        {% if page == paginator. page %}        {{ page }}        {% elsif page == 1 %}        {{ page }}        {% else %}        {{ page }}        {% endif %}       {% endfor %}       {% if paginator. next_page %}        Next &raquo;       {% else %}        &raquo;       {% endif %}            {% endif %}                     {% include sidebar-featured. html %}      "
+    "body": "  {% if page. url ==  /  %}        {% if site. posts. size &gt;= 1 %}  {% assign latest_post = site. posts[0] %}                                    {{ latest_post. title }}     :      {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}                   In         {% for category in latest_post. categories %}         {{ category }},         {% endfor %}                             {{ latest_post. date | date: '%b %d, %Y' }}               {% endif %}  {% if site. posts. size &gt; 1 %}     {% for post in site. posts offset:1 limit:3 %}                 {% if post. image %}                                       {% endif %}                          {{ post. title }}      :              In         {% for category in post. categories %}         {{ category }},         {% endfor %}                             {{ post. date | date: '%b %d, %Y' }}            {% endfor %}   {% endif %}  {% for post in site. posts %} {% if post. tags contains  sticky  %}                    {{post. title}}                  {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}                 Read More            	             {% endif %}{% endfor %}  {% endif %}     {% if site. posts. size &gt; 4 %}            All Stories:         {% for post in paginator. posts %}          {% include main-loop-card. html %}        {% endfor %}                   {% if paginator. total_pages &gt; 1 %}              {% if paginator. previous_page %}        &laquo; Prev       {% else %}        &laquo;       {% endif %}       {% for page in (1. . paginator. total_pages) %}        {% if page == paginator. page %}        {{ page }}        {% elsif page == 1 %}        {{ page }}        {% else %}        {{ page }}        {% endif %}       {% endfor %}       {% if paginator. next_page %}        Next &raquo;       {% else %}        &raquo;       {% endif %}            {% endif %}                     {% include sidebar-featured. html %}      {% endif %}"
     }, {
     "id": 5,
     "url": "http://localhost:4000/privacy-policy.html",
@@ -135,9 +135,9 @@ var documents = [{
     "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
     }, {
     "id": 8,
-    "url": "http://localhost:4000/welcome-to-jekyll/",
-    "title": "Welcome to Jekyll!",
-    "body": "2019/02/04 - You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post. ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. Jekyll also offers powerful support for code snippets: def print_hi(name) puts  Hi, #{name} endprint_hi('Tom')#=&gt; prints 'Hi, Tom' to STDOUT. Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk. "
+    "url": "http://localhost:4000/I-think-I'll-do-some-writing/",
+    "title": "I Think I'll Do Some Writing",
+    "body": "2025/12/25 - 글을 써볼까 합니다. 요즈음 운 좋게도 귀감이 되는 좋은 글을 많이 읽게 되었습니다. 언젠가 저도 좋은 글을 쓸 수 있게 되려면 제 생각을 글의 형태로 정리하는 훈련이 필요하다고 느꼈습니다. 어떤 식으로 글쓰기 훈련을 할지 고민해 봤습니다. 고민 끝에 내린 답이 바로 블로그 운영이었습니다. 사실 예전에도 몇 번 블로그 운영을 시도해 봤었습니다. 하지만 긴 글을 꾸준히 쓰기에는 아직 제 필력과 성실함이 부족하다는 것을 깨닫고 일찌감치 포기해 버렸습니다. 지금 돌이켜보면 글의 길이에 너무 목매달았던 것 같습니다. 짧은 글도 충분히 가치가 있는데도요. 그렇기에 이 블로그를 그때그때 드는 생각을 짧은 글로 담아내는 연습장으로 꾸며가게 될 것 같습니다. 어린 시절 저는 도서관에 자주 갔었습니다. 운이 좋으면 도서관에서 빌린 책에서 누군가가 책 모퉁이에 끄적인 낙서를 볼 수 있었는데, 왠지 모르게 그 메모를 읽으면 그 사람에 관해 아무것도 모르지만도 미세하게 감정이 공유되는 것을 느낄 수 있었습니다. 여기에 남기는 생각들이 모퉁이에 적힌 낙서처럼 여러분들과 저를 이어주기를 바랍니다.  \(\;\blacksquare\) "
     }];
 
 var idx = lunr(function () {
@@ -210,10 +210,18 @@ function lunr_search(term) {
 <div class="row">
     <div class="col-md-8">
      
-    <img class="card-img-top mb-5 shadow-lg" src="http://localhost:4000/assets/images/screenshot.jpg" alt="About"> 
+    <img class="card-img-top mb-5 shadow-lg mono" src="http://localhost:4000/assets/images/about/IMG_0072.jpg" alt="About"> 
      
     <div class="page-content">
-        <p>Made with <i class="fa fa-heart text-danger"></i> by Sal <a href="https://www.wowthemes.net/category/free-themes-templates/">@wowthemesnet</a>.</p>
+        <p>안녕하세요, 양성진입니다. KAIST 부설 한국과학영재학교에서 수학하며 동시에 기초과학연구원에서 연구하고 있습니다.</p>
+
+<p>세상에는 정말 많은 구조가 서로 치밀하게 엮여 있습니다. 그 덕분에, 전혀 다른 분야더라도 같은 구조를 가진 대상을 끌고 와 너무나 복잡해 보이는 문제를 손쉽게 해결하곤 합니다. 이것이 제가 수학을 하는 이유이자, 동시에 수학에만 매몰되지 않는 이유이기도 합니다. 세속적인 문제의 답이 수학에 있다면 수학을 하고, 수학적인 문제의 답이 세속에 있다면 아무 미련 없이 수학을 벗어납니다.</p>
+
+<p>저는 저 자신을 Structured Intuitionist라고 소개합니다. 자칫 두루뭉술해지기 쉬운 직관을 구조화해 표현함으로써, 직관에 의존하는 제 성향이 엄밀성을 필요로 하는 수학을 하는 데 적절할 수 있도록 보완하고 있습니다. 제 생각을 더욱 적확한 구조에 담아낼 수 있도록 여러 대수적, 조합적, 기하학적 구조를 공부하고 있습니다.</p>
+
+<p>수학 이외에도 축구와 음악을 좋아합니다. 축구부에서 주전 골키퍼를 맡고 있고, 밴드부에서 Synthesizer를 연주하고 있습니다. 잡념을 버리는 데 이만한 게 없더라고요.</p>
+
+<p>저에 대해 더 궁금한 점이 있으시다면 coderlovemedia at gmail dot com으로 연락 주세요. 감사합니다.</p>
 
         <!-- Comments -->
         
@@ -243,6 +251,7 @@ function lunr_search(term) {
     </div>
 </div>  
 </div>
+
     </main>
 
 
@@ -265,9 +274,6 @@ function lunr_search(term) {
                 <!--  Github Repo Star Btn-->
                 <a class="text-dark ml-1" target="_blank" href="https://github.com/redocmath/redocmath.github.io"><i class="fab fa-github"></i> Fork on Github</a>
 
-            </div>
-            <div>
-                Made with <a target="_blank" class="text-dark font-weight-bold" href="https://www.wowthemes.net/mundana-jekyll-theme/"> Mundana Jekyll Theme </a> by <a class="text-dark" target="_blank" href="https://www.wowthemes.net">WowThemes</a>.
             </div>
         </div>
         </div>
